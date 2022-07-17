@@ -15,7 +15,6 @@ async function getInfo() {
     const nasaInfo = await fetch(apiNasaInfo + query);
     const dataInfo = await nasaInfo.text();
   } catch (error) {
-    v;
     console.log("getInfo", error);
   }
 }
