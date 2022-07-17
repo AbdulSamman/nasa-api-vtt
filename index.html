@@ -26,45 +26,47 @@
         astronomer.
       </p>
     </header>
-    <div class="container justify-content-center align-items-center">
-      <main class="container justify-content-center align-items-center">
+    <div class="container">
+      <main>
         <p id="date"></p>
         <img src="" alt="" class="shadow-lg p-2 mb-3" />
       </main>
-    </div>
-    <section>
-      <p id="imgtitle"></p>
-      <p id="copyright"></p>
-      <p id="explanation"></p>
-    </section>
-    <div id="video">
-      <video id="nasaVideo" controls autoplay loop>
-        <source
-          src="https://images-assets.nasa.gov/video/172_ISS-Slosh/172_ISS-Slosh~orig.mp4"
-          type="video/mp4"
-        />
-        <track
-          kind="subtitles"
-          srclang="en"
-          src="./WebVTT.vtt"
-          label="English"
-          default
-        />
-        <track
-          kind="subtitles"
-          srclang="de"
-          src="./WebVTT _DE.vtt"
-          label="Deutsch"
-          default
-        />
-        <track
-          kind="subtitles"
-          srclang="ar"
-          src="./WebVTT_Ar.vtt"
-          label="العربية"
-          default
-        />
-      </video>
+
+      <section>
+        <p id="imgtitle"></p>
+        <p id="copyright"></p>
+        <p id="explanation"></p>
+      </section>
+      <div id="video">
+        <video id="nasaVideo" controls autoplay loop>
+          <source
+            src="https://images-assets.nasa.gov/video/172_ISS-Slosh/172_ISS-Slosh~orig.mp4"
+            type="video/mp4"
+          />
+          <track
+            kind="subtitles"
+            srclang="en"
+            src="./WEBVTT/WebVTT.vtt"
+            label="English"
+          />
+          <track
+            kind="subtitles"
+            srclang="de"
+            src="./WEBVTT/WebVTT _DE.vtt"
+            label="Deutsch"
+            default
+          />
+          <track
+            kind="subtitles"
+            srclang="ar"
+            src="./WEBVTT/WebVTT_Ar.vtt"
+            label="العربية"
+          />
+        </video>
+      </div>
+      <footer class="bg-dark text-white">
+        <p>&copy; 2022 AbdulrazakSamman-DCI</p>
+      </footer>
     </div>
     <script src="script.js"></script>
   </body>
