@@ -9,4 +9,5 @@ https://abdulsamman.github.io/nasa-api-vtt/
 - English
 - German
 
-![Uploading nasaPicOfDay.gif…]()
+
+![nasaPicOfDay](https://user-images.githubusercontent.com/97021586/219959400-825ab3c7-83f2-4813-abbb-273c519dbb06.gif)
